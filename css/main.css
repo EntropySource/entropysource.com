@@ -18,10 +18,14 @@
     font-size: 14px;
     line-height: 22px;
     color: #000;
+    margin-bottom: 90px;
   }
 
   html {
+    position: relative;
+    min-height: 100%;
     height: 100%;
+    padding-bottom:90px;
   }
 
 
@@ -381,25 +385,27 @@ ul.sub-menu {
 }
 
 
-/*************************
-*******Footer******
-**************************/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
 
-#footer {
   padding-bottom: 10px;
-  background-image: url(../images/home/footer.png);
+  background-image: url(/images/home/footer.png);
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;
 }
 
-#footer h1{
-  margin-bottom: 65px;
-  margin-top: 36px;
-}
-
-#footer .bottom-separator {
-  margin-bottom: 60px;
+footer h4{
+  position: relative;
+  pad: 0px;
+  margin-bottom: 00px;
+  width: 100%;
+  line-height: 90px;
+  text-align: center;
+  color: #0099ae
 }
 
 #message {
