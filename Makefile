@@ -8,5 +8,5 @@ build: Makefile
 deploy: build
 	aws s3 sync ./dist s3://www.entropysource.com/dist --exact-timestamps --delete
 
-dev:
+dev: build
 	python -m http.server --directory dist

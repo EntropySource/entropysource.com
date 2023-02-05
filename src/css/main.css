@@ -381,7 +381,7 @@ ul.sub-menu {
 }
 
 footer {
-  position: absolute;
+  //position: absolute;
   bottom: 0;
   width: 100%;
   height: 90px;
@@ -394,7 +394,7 @@ footer {
 }
 
 footer h4 {
-  position: relative;
+  //  position: relative;
   pad: 0px;
   margin-bottom: 00px;
   width: 100%;

@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  font-family: "Circular Pro", -apple-system, ".SFNSText-Regular",
+    "San Francisco", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  display: block;
+  font-size: 5rem;
+  color: rgb(18, 18, 23);
+}
+h2 {
+  display: block;
+  font-size: 4rem;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+p,
+li {
+  margin: 4rem 0;
+  font-size: 2rem;
+  font-family: "Lato", serif;
+  color: rgb(108, 108, 137);
+
+  line-height: 1.6;
+  font-weight: 400;
+}
