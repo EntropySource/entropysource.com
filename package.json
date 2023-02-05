@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "build": "npx tailwindcss build src/input.css -o ./dist/style.css",
+    "lint": "npx prettier --write \"src/**/*.{js,jsx,ts,tsx,css,scss,md,html}\""
+  }
+}
